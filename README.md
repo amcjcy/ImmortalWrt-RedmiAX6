@@ -10,6 +10,8 @@
 - Passwall 2
 - UPnP
 
+![1](https://user-images.githubusercontent.com/88967758/162794447-000c7606-4bae-40f0-9c55-0d0070c49a3b.jpg)
+
 ![1](https://user-images.githubusercontent.com/88967758/162666665-85dc903a-e6e9-46ff-b931-fcfb7a134cfb.jpg)
 
 ![2](https://user-images.githubusercontent.com/88967758/162666680-42a64d66-4089-4585-855c-72e78d722aeb.jpg)
@@ -72,3 +74,4 @@ A template for building OpenWrt with GitHub Actions
 ## License
 
 [MIT](https://github.com/P3TERX/Actions-OpenWrt/blob/main/LICENSE) © [**P3TERX**](https://p3terx.com)
+
