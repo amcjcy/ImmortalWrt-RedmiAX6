@@ -1,3 +1,20 @@
+# Redmi AX6 / Xiaomi AX3600 自用固件
+
+## 插件
+- Passwall 2
+- UPnP
+
+
+
+
+
+
+
+
+
+
+
+
 **English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
 # Actions-OpenWrt
