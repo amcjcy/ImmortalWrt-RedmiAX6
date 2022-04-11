@@ -1,6 +1,7 @@
 # Redmi AX6 / Xiaomi AX3600 自用固件
 
-## 插件
+**插件**
+
 - Passwall 2
 - UPnP
 
