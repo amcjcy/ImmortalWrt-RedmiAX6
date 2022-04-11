@@ -1,5 +1,7 @@
 # Redmi AX6 / Xiaomi AX3600 自用固件
 
+**192.168.10.1 root password**
+
 **插件**
 
 - Passwall 2
