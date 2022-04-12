@@ -7,7 +7,7 @@
 
 **插件**
 
-- Passwall 2
+- Passwall 2 (Xray-core 1.5.4)
 - UPnP
 
 ![1](https://user-images.githubusercontent.com/88967758/162794447-000c7606-4bae-40f0-9c55-0d0070c49a3b.jpg)
