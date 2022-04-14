@@ -71,6 +71,9 @@ jobs:
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
 
+    - name: add vssr
+      run: cd openwrt && rm -rf ./feeds/luci/applications/luci-app-vssr/* && git clone https://github.com/jerrykuku/luci-app-vssr.git ./feeds/luci/applications/luci-app-vssr-new && cp -rf ./feeds/luci/applications/luci-app-vssr-new/* ./feeds/luci/applications/luci-app-vssr && rm -rf ./feeds/luci/applications/luci-app-vssr-new
+
     - name: Install feeds
       run: cd openwrt && ./scripts/feeds install -a
 
