@@ -1,35 +1,3 @@
-# Redmi AX6 / Xiaomi AX3600 自用固件
-
-**登陆地址**
-- 192.168.10.1
-- root
-- password
-
-**插件**
-
-- Passwall 2 (Xray-core 1.5.4)
-- UPnP
-
-![1](https://user-images.githubusercontent.com/88967758/162794447-000c7606-4bae-40f0-9c55-0d0070c49a3b.jpg)
-
-![1](https://user-images.githubusercontent.com/88967758/162666665-85dc903a-e6e9-46ff-b931-fcfb7a134cfb.jpg)
-
-![2](https://user-images.githubusercontent.com/88967758/162666680-42a64d66-4089-4585-855c-72e78d722aeb.jpg)
-
-![3](https://user-images.githubusercontent.com/88967758/162666690-40e1324b-fb64-485f-8c03-287609536e2c.jpg)
-
-![4](https://user-images.githubusercontent.com/88967758/162666694-3b95c83c-b0f9-4f16-8ce5-9441fb980df9.jpg)
-
-
-
-
-
-
-
-
-
-
-
 **English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
 # Actions-OpenWrt
