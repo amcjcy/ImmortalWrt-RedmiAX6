@@ -6,21 +6,17 @@
 - <*> luci-app-cpufreq
 - -*- luci-app-firewall
 - -*- luci-app-opkg
+- <*> luci-app-ssr-plus
+- [*] Include Xray
 - <*> luci-app-turboacc
 - [*] Include Flow Offload
 - [*] Include BBR CCA
 - <*> luci-app-upnp
-- <*> luci-app-vssr
-- [*] Include Xray
 - <*> ipv6helper
 
 ## 主题
 - <*> luci-theme-argon
 - -*- luci-theme-bootstrap
-
-## 无线驱动
-- MediaTek MT7622 802.11bgn (radio0)
-- MediaTek MT7915E 802.11nacax (radio1)
 
 
 
