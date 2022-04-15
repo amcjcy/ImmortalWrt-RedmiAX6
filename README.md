@@ -1,5 +1,5 @@
 # Redmi AX6 AX6S Xiaomi AX3600 ImmortalWrt 固件
-- 源码仓库 https://github.com/1715173329/imoutowrt 分支 master-ax3000-5.15
+- 源码仓库 https://github.com/1715173329/imoutowrt
 - 192.168.10.1 root password
 
 ## 插件
