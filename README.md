@@ -1,3 +1,29 @@
+# Redmi AX6 AX6S Xiaomi AX3600 ImmortalWrt 固件
+- 源码仓库 https://github.com/1715173329/imoutowrt
+- 192.168.10.1 root password
+
+## 插件
+- <*> luci-app-cpufreq
+- -*- luci-app-firewall
+- -*- luci-app-opkg
+- <*> luci-app-turboacc
+- [*] Include Flow Offload
+- [*] Include BBR CCA
+- <*> luci-app-upnp
+- <*> luci-app-vssr
+- [*] Include Xray
+- <*> ipv6helper
+
+## 主题
+- <*> luci-theme-argon
+- -*- luci-theme-bootstrap
+
+## 无线驱动
+- MediaTek MT7622 802.11bgn (radio0)
+- MediaTek MT7915E 802.11nacax (radio1)
+
+
+
 **English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
 # Actions-OpenWrt
