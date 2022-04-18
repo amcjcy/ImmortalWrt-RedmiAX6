@@ -3,16 +3,17 @@
 - 192.168.10.1 root password
 
 ## 插件
-- <*> luci-app-cpufreq
-- -*- luci-app-firewall
-- -*- luci-app-opkg
-- <*> luci-app-ssr-plus
-- [*] Include Xray
-- <*> luci-app-turboacc
-- [*] Include Flow Offload
-- [*] Include BBR CCA
-- <*> luci-app-upnp
-- <*> ipv6helper
+- luci-app-cpufreq
+- luci-app-firewall
+- luci-app-opkg
+- luci-app-passwall
+- Include Xray
+- Include hysteria
+- luci-app-turboacc
+- Include Flow Offload
+- Include BBR CCA
+- luci-app-upnp
+- ipv6helper
 
 ## 主题
 - <*> luci-theme-argon
