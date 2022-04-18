@@ -9,16 +9,16 @@
 - luci-app-passwall
 <pre>
     Transparent Proxy
-    Include ChinaDNS-NG
-    Include Hysteria
-    Include PDNSD
-    Include Xray
+    ChinaDNS-NG
+    Hysteria
+    PDNSD
+    Xray
 </pre>
 
 - luci-app-turboacc
 <pre>
-    Include Flow Offload
-    Include BBR CCA
+    Flow Offload
+    BBR CCA
 </pre>
 
 - luci-app-upnp
