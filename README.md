@@ -1,28 +1,34 @@
-- ipv6helper
+### Extra packages
 
-<*> luci-app-argon-config
+ipv6helper
 
-- luci-app-cpufreq
+### LuCI
 
-- luci-app-firewall
+luci-app-argon-config
 
-- luci-app-opkg
+luci-app-cpufreq
 
-- luci-app-passwall
-<pre>
+luci-app-firewall
+
+luci-app-opkg
+
+luci-app-passwall
+
     Transparent Proxy
     ChinaDNS-NG
     Hysteria
     PDNSD
     Xray
-</pre>
 
-- luci-app-turboacc
-<pre>
+luci-app-turboacc
+
     Flow Offload
     BBR CCA
-</pre>
 
-- luci-app-upnp
+luci-app-upnp
 
-- luci-theme-argon
+### Themes
+
+luci-theme-argon
+
+luci-theme-bootstrap
