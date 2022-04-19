@@ -14,7 +14,6 @@ luci-app-passwall
 
     Transparent Proxy
     ChinaDNS-NG
-    Hysteria
     PDNSD
     Xray
 
