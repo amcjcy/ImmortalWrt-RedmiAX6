@@ -4,8 +4,6 @@ ipv6helper
 
 ### LuCI
 
-luci-app-argon-config
-
 luci-app-cpufreq
 
 luci-app-firewall
