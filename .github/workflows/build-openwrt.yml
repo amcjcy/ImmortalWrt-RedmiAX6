@@ -72,7 +72,8 @@ jobs:
       run: cd openwrt && ./scripts/feeds update -a
 
     - name: Update passwall
-      run: cd openwrt
+      run: |
+        cd openwrt
         rm -rf ./feeds/packages/net/xray-core hysteria
         rm -rf ./feeds/luci/applications/luci-app-passwall
         git clone -b packages https://github.com/chika0801/openwrt-passwall.git ./temp1
