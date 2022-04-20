@@ -72,7 +72,15 @@ jobs:
       run: cd openwrt && ./scripts/feeds update -a
 
     - name: Update passwall
-      run: cd openwrt && rm -rf ./feeds/packages/net/xray-core hysteria luci-app-passwall && git clone -b packages https://github.com/chika0801/openwrt-passwall.git ./temp1 && git clone -b luci https://github.com/chika0801/openwrt-passwall.git ./temp2 && cp -rf ./temp1/xray-core ./feeds/packages/net && cp -rf ./temp1/hysteria ./feeds/packages/net && cp -rf ./temp2/luci-app-passwall ./feeds/luci/applications && rm -rf ./temp1 ./temp2
+      run: cd openwrt
+        rm -rf ./feeds/packages/net/xray-core hysteria
+        rm -rf ./feeds/luci/applications/luci-app-passwall
+        git clone -b packages https://github.com/chika0801/openwrt-passwall.git ./temp1
+        git clone -b luci https://github.com/chika0801/openwrt-passwall.git ./temp2
+        cp -rf ./temp1/xray-core ./feeds/packages/net
+        cp -rf ./temp1/hysteria ./feeds/packages/net
+        cp -rf ./temp2/luci-app-passwall ./feeds/luci/applications
+        rm -rf ./temp1 ./temp2
 
     - name: Install feeds
       run: cd openwrt && ./scripts/feeds install -a
