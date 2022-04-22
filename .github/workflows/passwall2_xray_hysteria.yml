@@ -75,7 +75,7 @@ jobs:
       run: |
         cd openwrt
         rm -rf ./feeds/packages/net/xray-core hysteria
-        git clone -b packages https://github.com/chika0801/openwrt-passwall.git temp1
+        git clone https://github.com/xiaorouji/openwrt-passwall.git temp1
         cp -rf ./temp1/xray-core ./feeds/packages/net
         cp -rf ./temp1/hysteria ./feeds/packages/net
         rm -rf temp1
