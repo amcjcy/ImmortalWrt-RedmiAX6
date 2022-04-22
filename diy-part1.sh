@@ -14,4 +14,3 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo "src-git passwall2 https://github.com/chika0801/openwrt-passwall2.git" >> feeds.conf.default
