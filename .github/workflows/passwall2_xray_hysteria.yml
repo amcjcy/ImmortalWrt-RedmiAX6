@@ -71,7 +71,7 @@ jobs:
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
 
-    - name: Update passwall
+    - name: Update xray hysteria
       run: |
         cd openwrt
         rm -rf ./feeds/packages/net/xray-core hysteria
