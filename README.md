@@ -6,7 +6,7 @@ luci-app-firewall
 
 luci-app-opkg
 
-luci-app-passwall (Transparent Proxy,ChinaDNS-NG,PDNSD,Xray,hysteria)
+luci-app-passwall (Transparent Proxy,hysteria)
 
 luci-app-turboacc (Flow Offload,BBR CCA)
 
