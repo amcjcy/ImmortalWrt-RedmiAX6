@@ -1,12 +1,10 @@
-ipv6helper
-
 luci-app-cpufreq
 
 luci-app-firewall
 
 luci-app-opkg
 
-luci-app-passwall (Transparent Proxy,hysteria)
+luci-app-passwall (ChinaDNS-NG,Hysteria,PDNSD,Xray)
 
 luci-app-turboacc (Flow Offload,BBR CCA)
 
