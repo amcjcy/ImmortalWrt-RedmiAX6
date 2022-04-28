@@ -1,5 +1,3 @@
-ipv6helper
-
 luci-app-cpufreq
 
 luci-app-firewall
