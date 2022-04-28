@@ -78,7 +78,6 @@ jobs:
         git clone https://github.com/xiaorouji/openwrt-passwall.git temp1
         cp -rf ./temp1/xray-core ./feeds/packages/net
         rm -rf temp1
-        rm -rf ./package/emortal/luci-app-ssr-plus
 
     - name: Del sagernet-core luci-app-ssr-plus
       run: |
