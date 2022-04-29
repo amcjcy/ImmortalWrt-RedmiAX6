@@ -84,6 +84,13 @@ jobs:
         cd openwrt
         rm -rf ./package/emortal/luci-app-ssr-plus
 
+    - name: Add adguardhome
+      run: |
+        cd openwrt
+        git clone https://github.com/rufengsuixing/luci-app-adguardhome.git luci-app-adguardhome
+        cp -rf ./luci-app-adguardhome ./package
+        rm -rf luci-app-adguardhome
+
     - name: Install feeds
       run: cd openwrt && ./scripts/feeds install -a
 
