@@ -1,3 +1,5 @@
+luci-app-adguardhome
+
 luci-app-cpufreq
 
 luci-app-firewall
